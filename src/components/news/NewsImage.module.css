@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  padding: 8px 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.newsImage {
+  width: 90%;
+  height: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  border: 1px solid black;
+}
