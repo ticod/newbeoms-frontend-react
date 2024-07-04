@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.logoImage {
+  width: 64px;
+  height: 64px;
+}
+
+.logoTitleBox {
+  padding: 0 8px;
+}
+
+.logoTitle {
+  padding: 1px 8px;
+  border-bottom: 3px solid #033b8e;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #033b8e;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logoSubtitle {
+  padding: 1px 8px;
+  margin-top: 4px;
+  text-align: right;
+  font-size: 0.9rem;
+  color: black;
+  font-weight: 600;
+}
