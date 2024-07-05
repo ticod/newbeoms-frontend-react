@@ -1,0 +1,40 @@
+hr {
+  width: 100%;
+  margin: 16px auto;
+
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 0 8px;
+}
+
+.firstContainer > div:nth-child(1) {
+  flex: 33% 1 0;
+}
+
+.firstContainer > div:nth-child(2) {
+  flex: 66% 2 0;
+}
+
+.secondContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0 8px;
+}
+
+.secondContainer > div:nth-child(1) {
+  flex: 33% 1 0;
+}
+
+.secondContainer > div:nth-child(2) {
+  flex: 66% 2 0;
+}
+
+.newsContainer {
+  display: flex;
+  flex-direction: column;
+}
