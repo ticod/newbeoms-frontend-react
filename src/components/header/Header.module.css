@@ -1,7 +1,8 @@
 .wrapper {
   width: calc(100% - 32px);
   display: flex;
-  margin-top: 16px;
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
 
 .left {
