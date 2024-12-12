@@ -1,0 +1,64 @@
+.gossip, .comingSoon, .hardwareNews, .workCited, .weeklyGameNews {
+  padding: 16px 16px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+
+.gossip {
+  background-color: #ed7d31;
+  color: white;
+}
+
+.comingSoon {
+  background-color: #808080;
+  color: white;
+}
+
+.comingSoon li {
+  font-size: 1em;
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.comingSoon li::marker {
+  content: " - ";
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.hardwareNews {
+  background-color: #ed7d31;
+  color: white;
+}
+
+.hardwareNews a {
+  text-decoration: underline;
+}
+
+.workCited {
+  background-color: #808080;
+  color: white;
+}
+
+.workCited a {
+  text-decoration: underline;
+}
+
+.weeklyGameNews {
+  background-color: #0981bda8;
+  color: white;
+}
+
+.weeklyGameNews a {
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.content {
+  font-size: 0.9rem;
+}

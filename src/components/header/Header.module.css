@@ -1,0 +1,18 @@
+.wrapper {
+  width: calc(100% - 32px);
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.left {
+  justify-content: flex-start;
+}
+
+.center {
+  justify-content: center;
+}
+
+.right {
+  justify-content: flex-end;
+}
